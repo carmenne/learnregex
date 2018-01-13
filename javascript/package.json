@@ -1,0 +1,24 @@
+{
+  "name": "regex",
+  "version": "0.0.1",
+   "description": "\"Simpla app for learning regex\"",
+  "main": "exercises.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/carmenne/learnregex.git"
+  },
+  "author": "Carmen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carmenne/learnregex/issues"
+  },
+  "homepage": "https://github.com/carmenne/learnregex#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.83.0"
+  }
+}
